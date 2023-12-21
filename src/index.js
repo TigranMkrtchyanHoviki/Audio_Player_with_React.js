@@ -11,6 +11,15 @@ root.render(
   </React.StrictMode>
 );
 
+
+// const num = 203.45121565
+
+// let minut = parseInt((parseInt(num) / 60))
+// let second = parseInt((parseInt(num) % 60))
+
+// let time = `${minut}:${second}`
+
+// console.log(time)
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals

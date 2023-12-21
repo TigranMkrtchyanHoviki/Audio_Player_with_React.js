@@ -1,25 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+// import src_0 from "./audio/All Too Well (10 Minute Version) (Taylor's Version) (From The Vault) (Lyric Video).mp3"
+// import src_1 from "./audio/the-beatles_-_rock-and-roll-music.mp3"
+import { useEffect, useMemo, useRef, useState } from 'react';
+import Player from './components/Player/Player';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+     return <Player />
 }
 
 export default App;
